@@ -1,0 +1,4 @@
+process.yml
+node_modules/
+dist/
+run.sh
