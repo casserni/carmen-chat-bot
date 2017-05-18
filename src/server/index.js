@@ -6,6 +6,6 @@ const server = restify.createServer();
 
 server.post('/api/messages', connector.listen());
 
-server.listen(process.env.port, function () {
+server.listen(process.env.PORT, function () {
    console.log('%s listening to %s', server.name, server.url);
 });
